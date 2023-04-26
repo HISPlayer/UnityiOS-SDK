@@ -37,3 +37,6 @@ The following public APIs are provided by **HISPlayerManager**
   * **public float param3**: This will have different meanings depending on the event (see more information in [Functions](#Functions)). If there is no information about the parameter, it will have the default value -1.
   * **public float param4**: This will have different meanings depending on the event (see more information in [Functions](#Functions)). If there is no information about the parameter, it will have the default value -1.
   * **public string stringInfo**: Log information about the event.
+
+ ## Functions
+ The following functions are provided by **HISPlayerManager**. They are **not public** so it’s necessary to create a custom script which inherits from **HISPlayerManager**.
