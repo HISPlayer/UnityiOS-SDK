@@ -65,13 +65,13 @@ Once all this process it’s done, associate the **RenderTexture** to the script
 Input the license key that is associated with the SDK. If the license key is not valid, the player won't work and will throw an error message.
 ### Multi Stream Properties
 Use **Multi Stream Properties** to set all configurations needed for multi stream.However, currently HISPlayer iOS SDK only supports single stream. Multi stream support will be added in the future. It starts with 0 elements. Adding more elements will be ignored until multi stream support is added. Each element added has its own configuration.
-* Render Mode:
+* **Render Mode**:
   * Material: Attach the **Material** asset created to the **Material** section of the element.
   * Raw Image: Attach the **RawImage** asset created to the **RawImage** section of the element.
   * RenderTexture: Attach the **RenderTexture** asset created before to the **RenderTexture** section of the element.
   * NONE: If the stream is not going to be rendered on any surface, select this option.
-* URL: Add the **URL** associated to the stream. Each stream can have multiple URLs, therefore users can use the same render surface to play different URLs.
-* Auto Play: Property to determine whether the player will start automatically after set up. The property only works for the beginning of the stream, it is not used to toggle play/pause.
+* **URL**: Add the **URL** associated to the stream. Each stream can have multiple URLs, therefore users can use the same render surface to play different URLs.
+* **Auto Play**: Property to determine whether the player will start automatically after set up. The property only works for the beginning of the stream, it is not used to toggle play/pause.
 
 ## Build and Run:
 Once the configuration it’s done, open **‘Build Settings’** and press **‘Build And Run’**.
