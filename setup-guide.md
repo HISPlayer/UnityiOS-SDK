@@ -19,7 +19,7 @@ To set it up go to **Project Settings > Player Settings > Other Settings**
 Also, make sure that the **HISPlayeriOS.framework** file, located in **Packages > HISPlayer iOS SDK > HISPlayer > Plugins > iOS**, has the **Add to Embedded Binaries** set to true.
 
 <p align="center">
-<img src="./assets/embedded-bin.png">
+<img src="./assets/embedded-bin.png" width=50%>
 </p>
 
 ## Set up HISPlayerManager
