@@ -48,7 +48,7 @@ It is strictly necessary to use **SetUpPlayer** before using anything else, beca
 ## Attach Unity Resources
 Move to **Unity Editor** to attach all the resources. The rendering system is supporting **Material, RawImage, RenderTexture** and **NONE**  Unity’s components.
 
-### Material
+### <ins>Material</ins>
 Move into Assets’ folder for creating a new **Material**. It is possible to create a new **Material** into **Assets > Create > Material**.
 
 <p align="center">
@@ -61,7 +61,7 @@ Attach the material to the GameObject which is going to be used as a screen.
 <img src="./assets/attach-material.png">
 </p>
 
-### Raw Image
+### <ins>Raw Image</ins>
 This action will be related to Unity’s Canvas. If there is not a Canvas created yet, creating a **Raw Image** will create one automatically.
 
 For the creation, select **GameObject > UI > Raw Image**
@@ -72,7 +72,7 @@ For the creation, select **GameObject > UI > Raw Image**
 
 Once it is created, it can be attached to the stream controller script without doing anything else.
 
-### RenderTexture
+### <ins>RenderTexture</ins>
 First of all, check if the Resources folder exists and contains the RenderTextures folder. If it doesn’t exist then create it from zero. In this case, look for the Resources folder and copy its contents into the Unity Assets folder. This folder contains Unity RenderTexture resources. Another option is creating RenderTexture in Assets directly.
 
 The **RenderTexture** has to be attached to the GameObject which will be a screen for rendering the multimedia stream.
@@ -86,14 +86,14 @@ For creating this object, select **GameObject > 3D Object > Quad**. Then select 
 Once all this process it’s done, associate the **RenderTexture** to the script component.
 
 ## Configure HISPlayer Properties
-### License Key
+### <ins>License Key</ins>
 Input the license key that is associated with the SDK. If the license key is not valid, the player won't work and will throw an error message.
 
 <p align="center">
 <img src="./assets/license-key.png">
 </p>
 
-### Multi Stream Properties
+### <ins>Multi Stream Properties</ins>
 Use **Multi Stream Properties** to set all configurations needed for multi stream.However, currently HISPlayer iOS SDK only supports single stream. Multi stream support will be added in the future. It starts with 0 elements. Adding more elements will be ignored until multi stream support is added. Each element added has its own configuration.
 * **Render Mode**:
   * Material: Attach the **Material** asset created to the **Material** section of the element.
