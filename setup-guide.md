@@ -88,6 +88,11 @@ Once all this process it’s done, associate the **RenderTexture** to the script
 ## Configure HISPlayer Properties
 ### License Key
 Input the license key that is associated with the SDK. If the license key is not valid, the player won't work and will throw an error message.
+
+<p align="center">
+<img src="./assets/license-key.png">
+</p>
+
 ### Multi Stream Properties
 Use **Multi Stream Properties** to set all configurations needed for multi stream.However, currently HISPlayer iOS SDK only supports single stream. Multi stream support will be added in the future. It starts with 0 elements. Adding more elements will be ignored until multi stream support is added. Each element added has its own configuration.
 * **Render Mode**:
