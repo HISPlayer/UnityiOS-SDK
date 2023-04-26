@@ -22,7 +22,7 @@ Also, make sure that the **HISPlayeriOS.framework** file, located in **Packages 
 <img src="./assets/embedded-bin.png" width=50%>
 </p>
 
-## Set up HISPlayerManager
+## Set up HISPlayer Manager
 Create a script (for example **iOSStreamController**) which is going to inherit from **HISPlayerManager**. It is needed to include the namespace by adding **‘using HISPlayerAPI;’** and add this component to a GameObject. It is recommended to create an **Empty GameObject** for this.
 
 Call the **‘SetUpPlayer()’** function in order to initialize the stream environment internally. This function can be called whenever it’s needed.
