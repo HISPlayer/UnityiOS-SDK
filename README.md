@@ -1,6 +1,6 @@
 # HISPlayer Unity iOS SDK
 
-HISPlayer is the most advanced Unity video streaming player for iOS, supporting local, VOD and live contents. It enables premium DASH and HLS video streaming inside your Unity games and metaverses on iOS. We include advanced features such as multistream or automatic bitrate adaptation to secure the best video quality.
+HISPlayer is the most advanced Unity video streaming player for iOS, supporting local, VOD and live contents. It enables premium HLS video streaming inside your Unity games and metaverses on iOS. We include advanced features such as multistream or automatic bitrate adaptation to secure the best video quality.
 
 Here you can find the full Documentation:
 
