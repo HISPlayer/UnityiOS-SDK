@@ -4,7 +4,6 @@
 
 ### Supported Stream Protocols: 
 * HLS
-* DASH
 
 ### Supported Audio/Video Formats
 * WMV
