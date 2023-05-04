@@ -50,18 +50,30 @@ MonoBehaviour function which will be called from the beginning of the scene. It 
 Override this method to add custom logic when HISPlayerEvent.HISPlayer_EVENT_PLAYBACK_READY is triggered.
 This event occurs when the current playback of a stream is ready to be used.
 Calling functions such as GetTracks before this event is triggered will provide null information.
-
- | Name  | Description  | 
-|---|---|
-|param1| Number of tracks.|
+ <table>
+  <tr>
+    <th>Name</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>param1</td>
+    <td>Number of tracks of the playback.</td>
+  </tr>
+</table>
  
 #### protected virtual void EventPlaybackPlay(HISPlayerEventInfo eventInfo)
 Override this method to add custom logic when HISPlayerEvent.HISPlayer_EVENT_PLAYBACK_PLAY is triggered.
 This event occurs whenever an internal playback has been played.
-
- | Name  | Description  | 
-|---|---|
-|param1| PLAY = 1, PAUSE = 0.|
+  <table>
+  <tr>
+    <th>Name</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>param1</td>
+    <td>PLAY = 1, PAUSE = 0.</td>
+  </tr>
+</table>
  
 #### protected virtual void EventPlaybackPause(HISPlayerEventInfo eventInfo)
 Override this method to add custom logic when HISPlayerEvent.HISPlayer_EVENT_PLAYBACK_PAUSE is triggered.
@@ -74,11 +86,20 @@ This event occurs whenever an internal playback has been stopped.
 #### protected virtual void EventPlaybackSeek(HISPlayerEventInfo eventInfo)
 Override this method to add custom logic when HISPlayerEvent.HISPlayer_EVENT_PLAYBACK_SEEK is triggered.
 This event occurs whenever an internal playback has been sought to a new time position.
- 
-| Name  | Description  | 
-|---|---|
-|param1| Value of the old track position in milliseconds|
-|param2| Value of the new track position in milliseconds|
+ <table>
+  <tr>
+    <th>Name</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>param1</td>
+    <td>Value of the old track position in milliseconds.</td>
+  </tr>
+  <tr>
+    <td>param2</td>
+    <td>Value of the new track position in milliseconds.</td>
+  </tr>
+</table>
 
 #### protected virtual void EventEndOfContent(HISPlayerEventInfo eventInfo)
 Override this method to add custom logic when HISPlayerEvent.HISPlayer_EVENT_END_OF_CONTENT is triggered.
