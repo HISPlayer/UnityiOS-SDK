@@ -60,7 +60,7 @@ Calling functions such as GetTracks before this event is triggered will provide 
     <td>Number of tracks of the playback.</td>
   </tr>
 </table>
- 
+
 #### protected virtual void EventPlaybackPlay(HISPlayerEventInfo eventInfo)
 Override this method to add custom logic when HISPlayerEvent.HISPlayer_EVENT_PLAYBACK_PLAY is triggered.
 This event occurs whenever an internal playback has been played.
@@ -74,7 +74,7 @@ This event occurs whenever an internal playback has been played.
     <td>PLAY = 1, PAUSE = 0.</td>
   </tr>
 </table>
- 
+
 #### protected virtual void EventPlaybackPause(HISPlayerEventInfo eventInfo)
 Override this method to add custom logic when HISPlayerEvent.HISPlayer_EVENT_PLAYBACK_PAUSE is triggered.
 This event occurs whenever an internal playback has been paused.
