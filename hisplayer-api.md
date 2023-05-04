@@ -60,6 +60,7 @@ Calling functions such as GetTracks before this event is triggered will provide 
     <td>Number of tracks of the playback.</td>
   </tr>
 </table>
+ 
 
 #### protected virtual void EventPlaybackPlay(HISPlayerEventInfo eventInfo)
 Override this method to add custom logic when HISPlayerEvent.HISPlayer_EVENT_PLAYBACK_PLAY is triggered.
