@@ -32,9 +32,9 @@ For example, using the Awake function:
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using HisPlayerAPI;
+using HISPlayerAPI;
 
-public class iOSStreamController : HisPlayerManager
+public class iOSStreamController : HISPlayerManager
 {
     protected override void Awake()
     {
