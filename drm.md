@@ -25,6 +25,6 @@ The below image shows an example of the usage of the DRM fields in the editor:
   * The third element is protected both with a license key and header.
 
 <p align="center">
-<img src="./assets/drm.png">
+<img src="./assets/drm-multi.png">
 </p>
 
