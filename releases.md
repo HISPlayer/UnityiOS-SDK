@@ -1,4 +1,9 @@
 # HISPlayer Unity iOS SDK Release Notes
+### Version 2.3.0
+##### May 31, 2023
+- [**Add**] Added iOS NCG DRM System support.
+- [**Fix**] Fixed GetVideoDuration() API for iOS.
+
 ### Version 2.2.0
 ##### May 25, 2023
 - [**Add**] MacOS Editor support.
