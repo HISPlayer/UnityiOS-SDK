@@ -5,6 +5,8 @@ Encrypted content is prepared using an encryption server and stored in a content
 
 The HISPlayer Unity Video Player SDK for iOS uses [Inka](https://pallycon.com/docs/en/) DRM system called NGC(Netsync Content Guard), which makes it easier for customers to integrate it in their media service apps or games.
 
+When using DRM is important to disable bitcode from your XCode project for your targets. You can do it from **Project Settings > Build Settings > Enable Bitcode = NO**
+
 Use **Multi Stream Properties** to set the DRM fields. It is possible to add license keys both in the editor and from code (see AddStream and AddVideoContent in [HISPlayer API](/hisplayer-api.md) for more details):
 
 * <span style="color:blue">**Enable DRM**</span>: Check to enable DRM usage. When enabled, there should be one license key URI per content URL even though the content is clear (empty license key URI). This field will have effect during the AddVideoContent functionality.
