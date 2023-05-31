@@ -130,6 +130,12 @@ Modify the volume of a certain stream giving a **playerIndex**. The **volume** o
 Add a new stream to the list **multiStreamProperties**. The stream must be added using this function instead of changing the list manually.
 #### protected void RemoveStream(int playerIndex)
 Remove a certain player. The **playerIndex** is associated with the index of the element of **Multi Stream Properties**, e.g. the index 0 is the element 0 in the list.
+#### protected void AddVideoContent(int playerIndex, string url)
+Add new content to a certain player. If the enableDRM variable is true, a video content with an empty license will be added. The **playerIndex** is associated with the index of the element of Multi Stream Properties, e.g. the index 0 is the element 0 in the list. The url is the link to the new video. Please, make sure the string is correct.
+#### protected void AddVideoContent(int playerIndex, string url, string keyServerUri, string token key = “empty”opt, string token value= “empty”opt)
+Add new content to a certain player and its respective key server uri. The enableDRM variable must be true to use this function. The **playerIndex** is associated with the index of the element of Multi Stream Properties, e.g. the index 0 is the element 0 in the list. The url is the link to the new video. The keyServerUri is the token key associated with the url. Please, make sure the string is correct.
+#### protected void RemoveVideoContent(int playerIndex, int urlIndex)
+Remove content from a certain player. The **playerIndex** is associated with the index of the element of Multi Stream Properties, e.g. the index 0 is the element 0 in the list. The urlIndex is associated with the index of the element in the list of urls.
 #### protected string GetPlayerLog(int playerIndex)
 Provides a log message obtained from a certain player. The **playerIndex** is associated with the index of the element of **Multi Stream Properties**, e.g. the index 0 is the element 0 in the list.
 #### protected long GetVideoPosition(int playerIndex)
