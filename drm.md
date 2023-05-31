@@ -12,17 +12,8 @@ Use **Multi Stream Properties** to set the DRM fields. It is possible to add lic
 * <span style="color:blue">**DRM Headers**</span>: If your key server needs more information, add drm headers for DRM-protected contents alongside the respective Key Server URI. There must be one token per key server uri when the “Enable DRM” is checked. The headers are composed of a Key and a Value. This field will have effect during the AddVideoContent functionality.
 
 The below image shows an example of the usage of the DRM fields in the editor:
-* There are 3 URLs:
-  * VIDEO CONTENT 1 CLEAR
-  * VIDEO CONTENT 2 DRM
-  * VIDEO CONTENT 3 DRM + HEADERS
-* The 'enableDRM' field is checked.
-* There are 3 elements in Key Server URI list:
-  * The first one is empty, because the first content is clear
-  * The second and the third elements have their respective license key
-* There are 3 elements in DRM Tokens list:
-  * The first and the second elements are empty because URLs don't require DRM headers.
-  * The third element is protected both with a license key and header.
+* There is 1 content URL: https://contents.pallycon.com/TEST/PACKAGED_CONTENT/TEST_SIMPLE/sintel-trailer.mp4.ncg
+* There is 1 element in the Key Server URI list. This element is a token which will get the license from the content URL above. This whole process is managed by HISPlayer along with the NCG SDK.
 
 <p align="center">
 <img src="./assets/drm-multi.png">
