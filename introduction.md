@@ -29,6 +29,9 @@
 ### Supported iOS Version
 * iOS 11 onwards
 
+### Content Protection
+* Inka DRM System (NGC)
+
 ### Supported Unity’s Rendering Mode: 
 * Render Texture
 * Material Override
