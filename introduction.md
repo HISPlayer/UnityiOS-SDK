@@ -30,7 +30,7 @@
 * iOS 11 onwards
 
 ### Content Protection
-* Inka DRM System (NGC)
+* Inka DRM System
 
 ### Supported Unity’s Rendering Mode: 
 * Render Texture
