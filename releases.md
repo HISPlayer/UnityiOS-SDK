@@ -1,4 +1,8 @@
 # HISPlayer Unity iOS SDK Release Notes
+### Version 2.4.0
+##### June 15, 2023
+- [**Improvement**] Optimized loading Inka DRM contents when internet connection is off.
+
 ### Version 2.3.0
 ##### May 31, 2023
 - [**Added**] Added Inka DRM support.
