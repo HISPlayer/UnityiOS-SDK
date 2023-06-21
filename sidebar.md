@@ -1,6 +1,7 @@
 - [HISPlayer Unity iOS SDK](/introduction.md)
 - [Quickstart Guide](/setup-guide.md)
 - [DRM](/drm.md)
+- [Unity URP](/unity-urp.md)
 - [Unity HDRP](/unity-hdrp.md)
 - [HISPlayer API](/hisplayer-api.md)
 - [Releases](/releases.md)
