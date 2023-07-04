@@ -143,43 +143,66 @@ This event occurs whenever an internal playback is buffering.
 
 ### Non-virtual functions
 These functions can’t be overridden and they can be used only inside the inherited script. If it’s needed to use some of these functions into the Unity scene, for example with buttons, it is needed to create a public function which connects the button with the API.
+
 #### protected void SetUpPlayer()
 Initialize the player video stream system internally. It is necessary to use this function before anything else.
+
 #### protected void Release()
 Free all resources internally.
+
 #### protected void Play(int playerIndex)
 Play a certain stream giving a **playerIndex**. The **playerIndex** is associated with the index of the element of **Multi Stream Properties**, e.g. the index 0 is the element 0 in the list.
+
 #### protected void Pause(int playerIndex)
 Pause a certain stream giving a **playerIndex**. The **playerIndex** is associated with the index of the element of **Multi Stream Properties**, e.g. the index 0 is the element 0 in the list.
+
 #### protected void Stop(int playerIndex)
 Stop a certain stream giving a **playerIndex**. The **playerIndex** is associated with the index of the element of **Multi Stream Properties**, e.g. the index 0 is the element 0 in the list.
+
 #### protected void Seek(int playerIndex, long milliseconds)
 Seek a certain stream to a certain time giving a **playerIndex** and the time of the track to be sought in **milliseconds**. The stream is associated with the index of the element of **Multi Stream Properties**, e.g. the index 0 is the element 0 in the list.
+
 #### protected void SetVolume(int playerIndex, float volume)
 Modify the volume of a certain stream giving a **playerIndex**. The **volume** of the track value ranges between 0.0f and 1.0f. The **playerIndex** is associated with the index of the element of **Multi Stream Properties**, e.g. the index 0 is the element 0 in the list.
+
 #### protected void AddStream(StreamProperties newStream)
 Add a new stream to the list **multiStreamProperties**. The stream must be added using this function instead of changing the list manually.
+
 #### protected void RemoveStream(int playerIndex)
 Remove a certain player. The **playerIndex** is associated with the index of the element of **Multi Stream Properties**, e.g. the index 0 is the element 0 in the list.
+
 #### protected void AddVideoContent(int playerIndex, string url)
 Add new content to a certain player. If the enableDRM variable is true, a video content with an empty license will be added. The **playerIndex** is associated with the index of the element of Multi Stream Properties, e.g. the index 0 is the element 0 in the list. The url is the link to the new video. Please, make sure the string is correct.
+
 #### protected void AddVideoContent(int playerIndex, string url, string keyServerUri, string token key = “empty”opt, string token value= “empty”opt)
 Add new content to a certain player and its respective key server uri. The enableDRM variable must be true to use this function. The **playerIndex** is associated with the index of the element of Multi Stream Properties, e.g. the index 0 is the element 0 in the list. The url is the link to the new video. The keyServerUri is the token key associated with the url. Please, make sure the string is correct.
+
 #### protected void RemoveVideoContent(int playerIndex, int urlIndex)
 Remove content from a certain player. The **playerIndex** is associated with the index of the element of Multi Stream Properties, e.g. the index 0 is the element 0 in the list. The urlIndex is associated with the index of the element in the list of urls.
+
 #### protected string GetPlayerLog(int playerIndex)
 Provides a log message obtained from a certain player. The **playerIndex** is associated with the index of the element of **Multi Stream Properties**, e.g. the index 0 is the element 0 in the list.
+
 #### protected long GetVideoPosition(int playerIndex)
 Provides information about the timeline position in milliseconds, of the current video of a certain player. The **playerIndex** is associated with the index of the element of **Multi Stream Properties**, e.g. the index 0 is the element 0 in the list.
+
 #### protected long GetVideoDuration(int playerIndex)
 Provides information about the total duration in milliseconds, of the current video of a certain player. The **playerIndex** is associated with the index of the element of **Multi Stream Properties**, e.g. the index 0 is the element 0 in the list.
+
 #### public void EnableCaptions(int playerIndex, bool enabled)
 Enables the captions of the stream. The playerIndex is associated with the index of the element of Multi Stream Properties, e.g. the index 0 is the element 0 in the list.
+
 #### public HISPlayerCaptionTrack[] GetCaptionTrackList(int playerIndex)
 Provide information about all the captions of a certain stream. The playerIndex is associated with the index of the element of Multi Stream Properties, e.g. the index 0 is the element 0 in the list.
+
 #### public int GetCaptionsCount(int playerIndex)
 Obtain the number of captions of a  certain stream. The playerIndex is associated with the index of the element of Multi Stream Properties, e.g. the index 0 is the element 0 in the list.
+
 #### public string GetCaptionID(int playerIndex, int ccTrackIndex)
 Obtain the ID of a certain caption of a certain player. The playerIndex is associated with the index of the element of Multi Stream Properties, e.g. the index 0 is the element 0 in the list.
+
 #### public string GetCaptionLanguage(int playerIndex, int ccTrackIndex)
 Obtain the language of a certain caption of a certain player. The playerIndex is associated with the index of the element of Multi Stream Properties, e.g. the index 0 is the element 0 in the list.
+
+#### public void SelectCaptionTrack(int playerIndex, int ccTrackIndex)
+Select a certain caption of a certain stream to be used. Before using this functions is recommended to use GetCaptionTrackList in order to know all the information about the captions. The playerIndex is associated with the index of the element of Multi Stream Properties, e.g. the index 0 is the element 0 in the list.
