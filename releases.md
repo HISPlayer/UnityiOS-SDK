@@ -8,7 +8,7 @@
     - string GetCaptionID(int playerIndex, int ccTrackIndex)
     - string GetCaptionLanguage(int playerIndex, int ccTrackIndex)
     - void SelectCaptionTrack(int playerIndex, int ccTrackIndex)
-- [**Improvement**] Optimized AddNewStream function on Windows Editor and iOS (multistream not supported)
+- [**Improvement**] Optimized AddNewStream function on Windows Editor and iOS
 - [**Improvement**] Optimized Release function on Windows Editor
 
 ### Version 2.4.0
