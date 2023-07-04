@@ -1,8 +1,7 @@
 # HISPlayer Unity iOS SDK Release Notes
 ### Version 2.5.0
 ##### July 4, 2023
-- [**Added**] Subtitles support for MacOS Editor
-- [**Added**] Subtitles support for iOS
+- [**Added**] Subtitles support for MacOS Editor and iOS
     - HISPlayerCaptionTrack[] GetCaptionTrackList(int playerIndex)
     - int GetCaptionsCount(int playerIndex)
     - void EnableCaptions(int playerIndex, bool enabled)
