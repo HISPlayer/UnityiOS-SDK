@@ -2,7 +2,7 @@
 ### Version 2.5.0
 ##### July 4, 2023
 - [**Added**] Android support for Unity 2022
-- [**Added**] Subtitles support for MacOS
+- [**Added**] Subtitles support for MacOS Editor
 - [**Added**] Subtitles support for iOS
     - HISPlayerCaptionTrack[] GetCaptionTrackList(int playerIndex)
     - int GetCaptionsCount(int playerIndex)
@@ -10,8 +10,8 @@
     - string GetCaptionID(int playerIndex, int ccTrackIndex)
     - string GetCaptionLanguage(int playerIndex, int ccTrackIndex)
     - void SelectCaptionTrack(int playerIndex, int ccTrackIndex)
-- [**Improvement**] Optimized AddNewStream function on Windows and iOS (multistream not supported)
-- [**Improvement**] Optimized Release function on Windows
+- [**Improvement**] Optimized AddNewStream function on Windows Editor and iOS (multistream not supported)
+- [**Improvement**] Optimized Release function on Windows Editor
 
 ### Version 2.4.0
 ##### June 15, 2023
