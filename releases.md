@@ -11,7 +11,7 @@
 - [**Improvement**] Optimized AddNewStream API on Windows Editor and iOS
 - [**Improvement**] Optimized Release API on Windows Editor
 - [**Improvement**] Optimized SetupPlayer API during runtime for Windows Editor
-  
+
 ### Version 2.4.0
 ##### June 15, 2023
 - [**Improvement**] Optimized loading Inka DRM contents when internet connection is off.
