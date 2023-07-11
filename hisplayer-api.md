@@ -13,6 +13,7 @@ The following public APIs are provided by **HISPlayerManager**
   * **public List<string> url**: List of the URLs for the stream.
   * **public bool autoPlay**: If true, the players will start playing automatically after set-up.
   * **public bool enableRendering**: Determines if the stream will be rendered or not. The value can change in every moment for toggling between render or non-render mode. If true, the player will be rendered. It can change in runtime.
+  * **public List \<string\> keyServerURI**: List of the DRM license key for each URL.
 
 * **public enum HISPlayerRenderMode**: Type of texture for rendering.
     * **RenderTexture**
