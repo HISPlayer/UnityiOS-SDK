@@ -1,4 +1,13 @@
 # HISPlayer Unity iOS SDK Release Notes
+### Version 2.6.0
+##### July 11, 2023
+- [**Added**] Audio-Track-Selection support for MacOS Editor
+    - HISPlayerAudioTrack[] GetAudioTrackList(int playerIndex)
+    - int GetAudioCount(int playerIndex)
+    - string GetAudioID(int playerIndex, int audioTrackIndex)
+    - string GetAudioLanguage(int playerIndex, int audioTrackIndex)
+    - void SelectAudioTrack(int playerIndex, int audioTrackIndex)
+
 ### Version 2.5.0
 ##### July 4, 2023
 - [**Added**] Subtitles support for MacOS Editor and iOS
