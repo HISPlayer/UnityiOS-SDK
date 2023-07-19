@@ -90,7 +90,7 @@ Once all this process it’s done, associate the **RenderTexture** to the script
 Input the license key that is associated with the SDK. If the license key is not valid, the player won't work and will throw an error message.
 
 <p align="center">
-<img src="./assets/license-key.png">
+<img src="./assets/license-key.PNG">
 </p>
 
 ### <ins>Multi Stream Properties</ins>
