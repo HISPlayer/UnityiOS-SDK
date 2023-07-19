@@ -4,4 +4,5 @@
 - [Unity URP](/unity-urp.md)
 - [Unity HDRP](/unity-hdrp.md)
 - [HISPlayer API](/hisplayer-api.md)
+- [Update the SDK](/update-the-sdk.md)
 - [Releases](/releases.md)
