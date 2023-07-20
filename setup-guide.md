@@ -4,7 +4,7 @@ Through this guide, you will be introduced to the basic steps for setting up the
 ## Import Package
 Importing the package is the same as importing other normal packages in Unity. Select the package of HISPlayer SDK and import it.
 
-**Assets > Import Package > Custom Package**
+**Assets > Import Package > Custom Package > HISPlayerSDK_Android_iOS unity package**
 
 <p align="center">
 <img src="./assets/import-package.png">
