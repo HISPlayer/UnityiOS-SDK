@@ -19,7 +19,7 @@ Remove the previous HISPlayer Android / iOS SDK package from Unity Package Manag
 Importing the new package is the same as importing other normal packages in Unity. 
 Select the package of HISPlayer SDK and import it.
 
-**Assets > Import Package > Custom Package**
+**Assets > Import Package > Custom Package >  HISPlayerSDK_Android_iOS unity package**
 
 
 <p align="center">
