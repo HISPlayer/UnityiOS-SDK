@@ -1,7 +1,7 @@
 # HISPlayer Unity iOS SDK Release Notes
 ### Version 2.7.0
 ##### July 28, 2023
-- [**Added**] Multiview support
+- [**Added**] Multistream support
     - [**Improvement**] AddStream and RemoveStream functions can handle more than one stream
 - [**Added**] Audio-Track-Selection support
     - HISPlayerAudioTrack[] GetAudioTrackList(int playerIndex)
@@ -17,7 +17,7 @@
     - int GetTrackID(int playerIndex, int trackIndex)
     - int GetTrackCount(int playerIndex)
     - void SelectTrack(int playerIndex, int bitrate)
-- [**Added**] ChangeVideoContent in runtime support
+- [**Added**] ChangeVideoContent at runtime support
     - void ChangeVideoContent(int playerIndex, int urlIndex)
 - [**Improvement**] Optmized AddVideoContent function
 - [**Improvement**] Optimized Release function for MacOS Editor and iOS
