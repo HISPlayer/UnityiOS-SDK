@@ -3,8 +3,8 @@
 ### Version 2.8.0
 ##### August 7, 2023
 - [**Added**] Playback Speed Controller. Values must be greater than 0 and less than or equal to 8.
-    - void SetPlaybackSpeedRate(int playerIndex, float speed);
-    - float GetPlaybackSpeedRate(int playerIndex);   
+    - void SetPlaybackSpeedRate(int playerIndex, float speed)
+    - float GetPlaybackSpeedRate(int playerIndex)
 
 ### Version 2.7.0
 ##### July 28, 2023
