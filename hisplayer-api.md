@@ -242,7 +242,7 @@ Get the ID of a certain track of a certain stream. The playerIndex is associated
 Get the number of tracks of a certain stream. The playerIndex is associated with the index of the element of Multi Stream Properties, e.g. the index 0 is the element 0 in the list.
 
 #### protected void SelectTrack(int playerIndex, int bitrate)
-Select a certain track of a certain stream to be used as the main track. This action will disable ABR. It is possible to activate ABR using SetMaxBitrate and SetMinBitrate with different values for each one. The possible tracks can be obtained from the tracks returned from the method GetTracks. The playerIndex is associated with the index of the element of Multi Stream Properties, e.g. the index 0 is the element 0 in the list.
+Select a certain track of a certain stream to be used as the main track. This action will disable ABR. The possible tracks can be obtained from the tracks returned from the method GetTracks. The playerIndex is associated with the index of the element of Multi Stream Properties, e.g. the index 0 is the element 0 in the list.
 
 #### public void SetPlaybackSpeedRate(int playerIndex, float speed)
 Modify the **speed rate** of a certain stream. The value of the player's speed must be greater (>) than 0.0f and less than or equal (<=) to 8.0f. The default value of player's speed is 1.0f. The playerIndex is associated with the index of the element of Multi Stream Properties, e.g. the index 0 is the element 0 in the list.
