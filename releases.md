@@ -2,7 +2,7 @@
 
 ### Version 2.9.0
 ##### September 7, 2023
-- [**Added**] MultiStream with more than one DRM content(s)
+- [**Added**] MultiStream with more than one DRM contents
 - [**Added**] HISPlayer Settings 
 - [**Improvement**] Optimized loading the video contents
 - [**Improvement**] Optimized Release API for DRM content
