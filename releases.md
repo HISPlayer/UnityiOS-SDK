@@ -1,5 +1,14 @@
 # HISPlayer Unity iOS SDK Release Notes
 
+### Version 2.9.0
+##### September 7, 2023
+- [**Added**] MultiStream with more than one DRM content(s)
+- [**Added**] HISPlayer Settings 
+- [**Improvement**] Optimized loading the video contents
+- [**Improvement**] Optimized Release API for DRM content
+- [**Improvement**] Optimized EndOfContent event
+- [**Improvement**] Optimized DRM HLS stream playback
+
 ### Version 2.8.0
 ##### August 7, 2023
 - [**Added**] Playback Speed Controller. Values must be greater than 0 and less than or equal to 8.
