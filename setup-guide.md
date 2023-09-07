@@ -34,7 +34,7 @@ Open the window HISPlayer located in the upper side of the screen > Click on Pla
 
 <p align="center">
 <img width=40% alt="image" src="https://github.com/HISPlayer/UnityiOS-SDK/assets/47497948/cf52dda7-cbc8-49cd-b808-c51ba35752ff">
-      <img src="./assets/embedded-bin.png" width=40%>
+<img src="./assets/embedded-bin.png" width=40%>
 </p>
 
 ## 2.1 Set up HISPlayer Manager
