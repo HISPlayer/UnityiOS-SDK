@@ -10,9 +10,5 @@ The XCode console will be open automatically after running the application, but 
 **View** > **Debug Area** > **Activate Console**
 
 <p align="center">
-<img width=40% alt="image" src="https://github.com/HISPlayer/UnityiOS-SDK/assets/47497948/410ed6fb-f06e-44c2-a1be-04492ed43365">
-</p>
-
-<p align="center">
-<img width=80% alt="image" src="https://github.com/HISPlayer/UnityiOS-SDK/assets/47497948/a3c7a092-62fd-4373-ba11-73448f739186">
+<img width=90% alt="image" src="https://github.com/HISPlayer/UnityiOS-SDK/assets/47497948/27418949-e690-4872-836f-d2208961102a">
 </p>
