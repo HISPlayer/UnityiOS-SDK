@@ -1,6 +1,7 @@
 - [HISPlayer Unity iOS SDK](/introduction.md)
 - [Quickstart Guide](/setup-guide.md)
 - [Import HISPlayer Sample](/import-sample.md)
+- [Custom Shaders for Linear Color Space](/shaders.md)
 - [DRM](/drm.md)
 - [Unity URP](/unity-urp.md)
 - [Unity HDRP](/unity-hdrp.md)
