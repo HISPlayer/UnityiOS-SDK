@@ -3,6 +3,7 @@
 - [Import HISPlayer Sample](/import-sample.md)
 - [Custom Shaders for Linear Color Space](/shaders.md)
 - [DRM](/drm.md)
+- [Playing Local Files](/local-files.md)
 - [Unity URP](/unity-urp.md)
 - [Unity HDRP](/unity-hdrp.md)
 - [HISPlayer API](/hisplayer-api.md)
