@@ -4,6 +4,7 @@
 
 ### Video Delivery Formats: 
 * HLS
+* Local Playback
 
 ### Video Codecs
   * H.264 (AVC)
