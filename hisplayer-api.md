@@ -4,7 +4,8 @@
 
 The following public APIs are provided by **HISPlayerManager**
 
-* **public List < StreamProperties > multiStreamProperties**: List of properties for multi stream.
+* **public List < StreamProperties > multiStreamProperties**: List of properties for multi stream. Please, don't modify this list directly, use the **AddStream** or **RemoveStream** functions instead.
+
 * **public class StreamProperties**:
   * **public HISPlayerRenderMode renderMode**: Type of texture for rendering.
   * **public Material material**: Reference to the Unity Material.
