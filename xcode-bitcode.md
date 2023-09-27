@@ -3,10 +3,10 @@ After pressing the button **Build** or **Build and Run** on Unity, an XCode proj
 
 In the case you are facing the following issue:
 ```
-'/Users/stiven/Desktop/Test-Builds/iOS-2021/Frameworks/com.hisplayer.hisplayersdk/HISPlayer/Plugins/iOS/
+'/Users/hisplayer/Desktop/Test-Builds/iOS-2021/Frameworks/com.my.package/HISPlayer/Plugins/iOS/
 HISPlayeriOS.framework/HISPlayeriOS' does not contain bitcode. You must rebuild it with bitcode enabled
 (Xcode setting ENABLE_BITCODE), obtain an updated library from the vendor, or disable bitcode for this target.
-file '/Users/stiven/Desktop/Test-Builds/iOS-2021/Frameworks/com.hisplayer.hisplayersdk/HISPlayer/Plugins/iOS/
+file '/Users/hisplayer/Desktop/Test-Builds/iOS-2021/Frameworks/com.my.package/HISPlayer/Plugins/iOS/
 HISPlayeriOS.framework/HISPlayeriOS' for architecture arm64
 ``` 
 
