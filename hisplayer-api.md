@@ -74,7 +74,7 @@ These functions can be overridden.
 MonoBehaviour function which will be called from the beginning of the scene. It can be overridden but to make the system work it’s necessary to call base.Awake() into the overridden function.
  
 #### protected virtual void EventPlaybackReady(HISPlayerEventInfo eventInfo)
-Override this method to add custom logic when HISPlayerEvent.HISPlayer_EVENT_PLAYBACK_READY is triggered.
+Override this method to add custom logic when **HISPlayerEvent.HISPlayer_EVENT_PLAYBACK_READY** is triggered.
 This event occurs when the current playback of a stream is ready to be used.
 Calling functions such as GetTracks before this event is triggered will provide null information.
  <table>
@@ -90,7 +90,7 @@ Calling functions such as GetTracks before this event is triggered will provide 
  
 
 #### protected virtual void EventPlaybackPlay(HISPlayerEventInfo eventInfo)
-Override this method to add custom logic when HISPlayerEvent.HISPlayer_EVENT_PLAYBACK_PLAY is triggered.
+Override this method to add custom logic when **HISPlayerEvent.HISPlayer_EVENT_PLAYBACK_PLAY** is triggered.
 This event occurs whenever an internal playback has been played.
   <table>
   <tr>
@@ -104,15 +104,15 @@ This event occurs whenever an internal playback has been played.
 </table>
 
 #### protected virtual void EventPlaybackPause(HISPlayerEventInfo eventInfo)
-Override this method to add custom logic when HISPlayerEvent.HISPlayer_EVENT_PLAYBACK_PAUSE is triggered.
+Override this method to add custom logic when **HISPlayerEvent.HISPlayer_EVENT_PLAYBACK_PAUSE** is triggered.
 This event occurs whenever an internal playback has been paused.
 
 #### protected virtual void EventPlaybackStop(HISPlayerEventInfo eventInfo)
-Override this method to add custom logic when HISPlayerEvent.HISPlayer_EVENT_PLAYBACK_STOP is triggered.
+Override this method to add custom logic when **HISPlayerEvent.HISPlayer_EVENT_PLAYBACK_STOP** is triggered.
 This event occurs whenever an internal playback has been stopped.
  
 #### protected virtual void EventPlaybackSeek(HISPlayerEventInfo eventInfo)
-Override this method to add custom logic when HISPlayerEvent.HISPlayer_EVENT_PLAYBACK_SEEK is triggered.
+Override this method to add custom logic when **HISPlayerEvent.HISPlayer_EVENT_PLAYBACK_SEEK** is triggered.
 This event occurs whenever an internal playback has been sought to a new time position.
  <table>
   <tr>
@@ -183,11 +183,11 @@ Override this method to add custom logic when **HISPlayerEvent.HISPlayerEvent.HI
 This event occurs when the playback has changed to the next video in the playlist automatically.
 
 #### protected virtual void EventEndOfContent(HISPlayerEventInfo eventInfo)
-Override this method to add custom logic when HISPlayerEvent.HISPlayer_EVENT_END_OF_CONTENT is triggered.
+Override this method to add custom logic when **HISPlayerEvent.HISPlayer_EVENT_END_OF_CONTENT** is triggered.
 This event occurs whenever an internal playlist reaches the end of the list.
 
 #### protected virtual void EventPlaybackBuffering(HISPlayerEventInfo eventInfo)
-Override this method to add custom logic when HISPlayerEvent.HISPlayer_EVENT_PLAYBACK_BUFFERING is triggered.
+Override this method to add custom logic when **HISPlayerEvent.HISPlayer_EVENT_PLAYBACK_BUFFERING** is triggered.
 This event occurs whenever an internal playback is buffering.
 
 ### Non-virtual functions
