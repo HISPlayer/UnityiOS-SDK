@@ -40,6 +40,14 @@ The following public APIs are provided by **HISPlayerManager**
     * **HISPLAYER_EVENT_AUTO_TRANSITION**
     * **HISPLAYER_EVENT_PLAYBACK_BUFFERING** 
     * **HISPLAYER_EVENT_END_OF_CONTENT**
+
+ * **public enum HISPlayerError**: The list of errors provided by HISPlayer SDK. The errors can be used with the virtual functions in the next section:
+   * **HISPLAYER_ERROR_LICENSE_EXPIRED** (no function on this)
+   * **HISPLAYER_ERROR_NOT_VALID_APPID** (no function on this)
+   * **HISPLAYER_ERROR_GENERAL_LICENSE_ERROR** (no function on this)
+   * **HISPLAYER_ERROR_IOS_API_NOT_REGISTERED** (no function on this)
+   * **HISPLAYER_ERROR_LICENSE_DISABLED** (no function on this)
+   * **HISPLAYER_ERROR_NETWORK_FAILED**
   
 * **public struct HISPlayerEventInfo**: The information of the triggered event.
   * **public HISPlayerEvent eventType**: The type of the event triggered.
@@ -182,13 +190,17 @@ This event occurs whenever a caption's text has been generated.
 Override this method to add custom logic when **HISPlayerEvent.HISPlayerEvent.HISPLAYER_EVENT_AUTO_TRANSITION** is triggered.
 This event occurs when the playback has changed to the next video in the playlist automatically.
 
+#### protected virtual void EventPlaybackBuffering(HISPlayerEventInfo eventInfo)
+Override this method to add custom logic when **HISPlayerEvent.HISPlayer_EVENT_PLAYBACK_BUFFERING** is triggered.
+This event occurs whenever an internal playback is buffering.
+
 #### protected virtual void EventEndOfContent(HISPlayerEventInfo eventInfo)
 Override this method to add custom logic when **HISPlayerEvent.HISPlayer_EVENT_END_OF_CONTENT** is triggered.
 This event occurs whenever an internal playlist reaches the end of the list.
 
-#### protected virtual void EventPlaybackBuffering(HISPlayerEventInfo eventInfo)
-Override this method to add custom logic when **HISPlayerEvent.HISPlayer_EVENT_PLAYBACK_BUFFERING** is triggered.
-This event occurs whenever an internal playback is buffering.
+#### protected virtual void ErrorNetworkFailed(HISPlayerErrorInfo errorInfo)
+Override this method to add custom logic when **HISPlayerError.HISPLAYER_ERROR_NETWORK_FAILED** is triggered.
+This error occurs whenever the network on a stream playback has failed.
 
 ### Non-virtual functions
 These functions can’t be overridden and they can be used only inside the inherited script. If it’s needed to use some of these functions into the Unity scene, for example with buttons, it is needed to create a public function which connects the button with the API.
