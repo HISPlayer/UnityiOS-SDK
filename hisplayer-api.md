@@ -6,33 +6,40 @@ The following public APIs are provided by **HISPlayerManager**
 
 * **public string licenseKey**: License key for making the SDK works.
 
-* **public List < StreamProperties > multiStreamProperties**: List of properties for multi stream. Please, don't modify this list directly, use the **AddStream** or **RemoveStream** functions instead.
+* **public List <StreamProperties> multiStreamProperties**: List of properties for multi stream. Please, don't modify this list directly, use the **AddStream** or **RemoveStream** functions instead.
 
 * **public class StreamProperties**:
-  * **public HISPlayerRenderMode renderMode**: Type of texture for rendering.
-  * **public Material material**: Reference to the Unity Material.
-  * **public RawImage rawImage**: Reference to the Unity Raw Image.
-  * **public RenderTexture renderTexture**: Reference to the Unity Render Texture.
-  * **public List<string> url**: List of the URLs for the stream.
-  * **public bool autoPlay**: If true, the players will start playing automatically after set-up.
-  * **public bool enableRendering**: Determines if the stream will be rendered or not. The value can change in every moment for toggling between render or non-render mode. If true, the player will be rendered. It can change in runtime.
-  * **public List \<string\> keyServerURI**: List of the DRM license key for each URL.
+    * **public StreamProperties(bool isLoopPlaybackEnabled = true, bool isAutoTransitionEnabled = false)**: Constructor of the class. The received parameters will set the value of **LoopPlayback** and **AutoTransition** properties respectively. 
+    * **public HISPlayerRenderMode renderMode**: Type of texture for rendering. **HISPlayerRenderMode.NONE** by default.
+    * **public Material material**: Reference to the Unity Material.
+    * **public RawImage rawImage**: Reference to the Unity Raw Image.
+    * **public RenderTexture renderTexture**: Reference to the Unity Render Texture.
+    * **public List \<string\> url**: List of the URLs for the stream.
+    * **public bool autoPlay**: If true, the players will start playing automatically after set-up.
+    * **public bool EnableRendering**: Determines if the stream will be rendered or not. The value can change in every moment for toggling between render or non-render mode. If true, the player will be rendered. It only can change in runtime.
+    * **public bool LoopPlayback (Read-only)**: Loop the current playback. It's true by default. To modify this value, please, use the Editor or the alternative constructor **StreamProperties(loopPlayback, autoTransition)**.
+    * **public bool AutoTransition (Read-only)**: Change the playback to the next video in the playlist. This action won't have effect when loopPlayback is true. It's false by default. To modify this value, please, use the Editor or the alternative constructor **StreamProperties(loopPlayback, autoTransition)**.
+    * **public List \<string\> keyServerURI**: List of the DRM license key for each URL.
 
 * **public enum HISPlayerRenderMode**: Type of texture for rendering.
     * **RenderTexture**
     * **Material**
     * **RawImage**
     * **NONE**
-  
-* **public enum HISPlayerEvent**: The list of events provided by HISPlayer SDK. You can use the event using the virtual functions in the next section.
-  * **HISPLAYER_EVENT_PLAYBACK_PLAY**
-  * **HISPLAYER_EVENT_PLAYBACK_PAUSE**
-  * **HISPLAYER_EVENT_PLAYBACK_STOP**
-  * **HISPLAYER_EVENT_PLAYBACK_SEEK**
-  * **HISPLAYER_EVENT_PLAYBACK_READY**
-  * **HISPLAYER_EVENT_END_OF_CONTENT**
-  * **HISPLAYER_EVENT_TEXT_RENDER**
-  * **HISPLAYER_EVENT_PLAYBACK_BUFFERING**
+
+* **public enum HISPlayerEvent**: The list of events provided by HISPlayer SDK. The events can be used with the virtual functions in the next section:
+    * **HISPLAYER_EVENT_PLAYBACK_READY**
+    * **HISPLAYER_EVENT_PLAYBACK_PLAY**
+    * **HISPLAYER_EVENT_PLAYBACK_PAUSE**
+    * **HISPLAYER_EVENT_PLAYBACK_STOP**
+    * **HISPLAYER_EVENT_PLAYBACK_SEEK**
+    * **HISPLAYER_EVENT_VOLUME_CHANGE**
+    * **HISPLAYER_EVENT_END_OF_PLAYLIST**
+    * **HISPLAYER_EVENT_ON_STREAM_RELEASE**
+    * **HISPLAYER_EVENT_TEXT_RENDER** 
+    * **HISPLAYER_EVENT_AUTO_TRANSITION**
+    * **HISPLAYER_EVENT_PLAYBACK_BUFFERING** 
+    * **HISPLAYER_EVENT_END_OF_CONTENT**
   
 * **public struct HISPlayerEventInfo**: The information of the triggered event.
   * **public HISPlayerEvent eventType**: The type of the event triggered.
@@ -122,6 +129,40 @@ This event occurs whenever an internal playback has been sought to a new time po
   </tr>
 </table>
 
+#### protected virtual void EventVolumeChange(HISPlayerEventInfo eventInfo)
+Override this method to add custom logic when **HISPlayerEvent.HISPLAYER_EVENT_VOLUME_CHANGE** is triggered.
+This event occurs whenever the volume has been modified.
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>param1</td>
+    <td>New value for the volume.</td>
+  </tr>
+</table>
+
+#### protected virtual void EventEndOfPlaylist(HISPlayerEventInfo eventInfo)
+Override this method to add custom logic when **HISPlayerEvent.HISPLAYER_EVENT_END_OF_PLAYLIST** is triggered.
+This event occurs whenever an internal playlist reaches the end of the list.
+
+#### protected virtual void EventOnStreamRelease(HISPlayerEventInfo eventInfo)
+Override this method to add custom logic when **HISPlayerEvent.HISPLAYER_EVENT_ON_STREAM_RELEASE** is triggered.
+This event occurs whenever a player/stream has been released.
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>param1</td>
+    <td>Number of players after releasing.</td>
+  </tr>
+</table>
+
 #### protected virtual void EventTextRender(HISPlayerCaptionElement subtitlesInfo)
 Override this method to add custom logic when **HISPlayerEvent.HISPLAYER_EVENT_TEXT_RENDER** is triggered.
 This event occurs whenever a caption's text has been generated.
@@ -136,6 +177,10 @@ This event occurs whenever a caption's text has been generated.
     <td>The next generated caption text.</td>
   </tr>
 </table>
+
+#### protected virtual void EventAutoTransition(HISPlayerCaptionElement subtitlesInfo)
+Override this method to add custom logic when **HISPlayerEvent.HISPlayerEvent.HISPLAYER_EVENT_AUTO_TRANSITION** is triggered.
+This event occurs when the playback has changed to the next video in the playlist automatically.
 
 #### protected virtual void EventEndOfContent(HISPlayerEventInfo eventInfo)
 Override this method to add custom logic when HISPlayerEvent.HISPlayer_EVENT_END_OF_CONTENT is triggered.
