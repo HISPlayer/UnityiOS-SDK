@@ -1,4 +1,11 @@
 # HISPlayer Unity iOS SDK Release Notes
+### Version 2.11.0
+##### October 18, 2023
+- [**Added**] LoopPlayback API to loop the current playback. This will trigger HISPlayerEvent.HISPLAYER_EVENT_END_OF_CONTENT
+    - Refer to [Stream Properties - LoopPlayback](https://hisplayer.github.io/UnityiOS-SDK/#/hisplayer-api)
+- [**Added**] AutoTransition API to change the playback to the next video in the playlist. This will trigger the HISPlayerEvent.HISPLAYER_EVENT_AUTO_TRANSITION
+    - Refer to [Stream Properties - AutoTransition](https://hisplayer.github.io/UnityiOS-SDK/#/hisplayer-api) 
+
 ### Version 2.10.0
 ##### September 21, 2023
 - [**Added**] [Custom Shaders for Linear Color Space](/shaders.md)
