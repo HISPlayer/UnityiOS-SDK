@@ -1,4 +1,9 @@
 # HISPlayer Unity iOS SDK Release Notes
+
+### Version 2.12.0
+##### October 24, 2023
+- [**Added**] Unity 2023 support
+
 ### Version 2.11.0
 ##### October 18, 2023
 - [**Added**] LoopPlayback API to loop the current playback. This will trigger HISPlayerEvent.HISPLAYER_EVENT_END_OF_CONTENT
