@@ -30,7 +30,11 @@ Importing the package is the same as importing other normal packages in Unity. S
 
 
 ## 1.2 Configure Unity for iOS
-Open the window HISPlayer located in the upper side of the screen > Click on Player Settings Configuration > Select Build Target to iOS > Set all the required settings.
+Open the window **Tools > HISPlayer** located in the upper side of the screen > Click on Player Settings Configuration > Select Build Target to iOS > Set all the required settings.
+
+<p align="center">
+<img width=75% alt="image" src="https://github.com/HISPlayer/UnityiOS-SDK/assets/47497948/f0cdaf97-a01e-45f3-92d4-291d5e1f5ceb">
+</p>
 
 <p align="center">
 <img width=40% alt="image" src="https://github.com/HISPlayer/UnityiOS-SDK/assets/47497948/cf52dda7-cbc8-49cd-b808-c51ba35752ff">
