@@ -29,14 +29,15 @@ Select the package of HISPlayer SDK and import it.
 <br>
 
 ## Configure Unity for iOS
-It is necessary to set the **Color Space** as **Linear**.
-
-To set it up go to **Project Settings > Player Settings > Other Settings**
-
-Also, make sure that the **HISPlayeriOS.framework** file, located in **Packages > HISPlayer iOS SDK > HISPlayer > Plugins > iOS**, has the **Add to Embedded Binaries** set to true.
+Open the window **Tools > HISPlayer** located in the upper side of the screen > Click on Player Settings Configuration > Select Build Target to iOS > Set all the required settings.
 
 <p align="center">
-<img src="./assets/embedded-bin.png" width=50%>
+<img width=75% alt="image" src="https://github.com/HISPlayer/UnityiOS-SDK/assets/47497948/f0cdaf97-a01e-45f3-92d4-291d5e1f5ceb">
+</p>
+
+<p align="center">
+<img width=40% alt="image" src="https://github.com/HISPlayer/UnityiOS-SDK/assets/47497948/cf52dda7-cbc8-49cd-b808-c51ba35752ff">
+<img src="./assets/embedded-bin.png" width=40%>
 </p>
 
 
