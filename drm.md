@@ -3,7 +3,7 @@
 In the video streaming industry, the DRM (Digital Rights Management) makes possible a secure distribution of contents over the network.
 Encrypted content is prepared using an encryption server and stored in a content library. The encrypted content is streamed or downloaded from the content library to client devices via content servers. Licenses to view the content are obtained from the License Server.
 
-The HISPlayer Unity Video Player SDK for iOS uses [Inka](https://pallycon.com/docs/en/) DRM system called NGC(Netsync Content Guard), which makes it easier for customers to integrate it in their media service apps or games.
+The HISPlayer Unity Video Player SDK for iOS uses [Inka](https://pallycon.com/docs/en/) DRM system called NCG(Netsync Content Guard), which makes it easier for customers to integrate it in their media service apps or games.
 
 When using DRM is important to disable bitcode from your XCode project for your targets. You can do it from **Project Settings > Build Settings > Enable Bitcode = NO**
 
