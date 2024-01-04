@@ -1,6 +1,6 @@
 # Playing Local Files
 
-HISPlayer iOS for Unity can playback local content from both [**Unity Streaming Assets**](./local-files.md#Unity-Streaming-Assets) and
+HISPlayer iOS for Unity can play local content from both [**Unity Streaming Assets**](./local-files.md#Unity-Streaming-Assets) and
 the [**Persistent Data Path**](./local-files.md#Persistent-Data-Path) (application's path). 
 
 Keep in mind the SDK will look for the local video first on the **Unity Streaming Assets** so a file with the same name on the 
