@@ -1,5 +1,19 @@
 # HISPlayer Unity iOS SDK Release Notes
 
+### Version 3.2.0
+##### December 7, 2023
+- [**Added**] AutoTransition and LoopPlayback APIs to multiplatform SDK
+- [**Added**] Local content support (Unity StreamingAssets) to multiplatform SDK
+- [**Added**] Unity 2023 support to multiplatform SDK
+- [**Improvement**] Remove http setting from HISPlayer Settings window
+
+### Version 3.1.0
+##### October 11, 2023
+
+### Version 3.0.0
+##### September 5, 2023
+The iOS SDK is moved to multiplatform HISPlayerSDK (Android, iOS, macOS, WebGL, Windows)
+
 ### Version 2.13.0
 ##### December 5, 2023
 - [**Added**] Local documentation
