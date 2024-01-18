@@ -11,7 +11,6 @@ Use **Multi Stream Properties** to set the DRM fields. It is possible to add lic
 
 * <span style="color:blue">**Enable DRM**</span>: Check to enable DRM usage. When enabled, there should be one license key URI per content URL even though the content is clear (empty license key URI). This field will have effect during the AddVideoContent functionality.
 * <span style="color:blue">**Key Server URI**</span>: Add license URLs for DRM-protected contents. There must be one license key URL per content URL when the “Enable DRM” is checked.
-* <span style="color:blue">**DRM Tokens**</span>: If your key server needs more information, add drm tokens for DRM-protected contents alongside the respective Key Server URI. There must be one token per key server uri when the “Enable DRM” is checked. The tokens are composed of a Key and a Value. This field will have effect during the AddVideoContent functionality.
 
 The below image shows an example of the usage of the DRM fields in the editor:
 * There is 1 content URL: https://contents.pallycon.com/TEST/PACKAGED_CONTENT/TEST_SIMPLE/sintel-trailer.mp4.ncg
