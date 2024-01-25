@@ -23,6 +23,8 @@
 ##### September 5, 2023
 The iOS SDK is moved to multiplatform HISPlayerSDK (Android, iOS, macOS, WebGL, Windows)
 
+Starting from version 3.0.0, the iOS SDK is part of multiplatform SDK
+
 ### Version 2.13.0
 ##### December 5, 2023
 - [**Added**] Local documentation
