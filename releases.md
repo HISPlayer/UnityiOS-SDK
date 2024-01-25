@@ -5,8 +5,8 @@
 - [**Added**] New API to change video content using the URL string as a paremeter:
     - **ChangeVideoContent(int playerIndex, string url)**
     - **ChangeVideoContent(int playerIndex, string url, string keyServerURI, string tokenKey = "", string tokenValue = "")**
-- [**Improvement**] Optimized Unity logs improvement
-- [**Improvement**] Optimized Change Video Content with DRM for iOS
+- [**Improvement**] Optimized error logs
+- [**Improvement**] Optimized ChangeVideoContent API with DRM for iOS
 
 ### Version 3.2.0
 ##### December 7, 2023
