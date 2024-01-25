@@ -1,5 +1,13 @@
 # HISPlayer Unity iOS SDK Release Notes
 
+### Version 3.3.0
+##### January 25, 2024
+- [**Added**] New API to change video content using the URL string as a paremeter:
+    - **ChangeVideoContent(int playerIndex, string url)**
+    - **ChangeVideoContent(int playerIndex, string url, string keyServerURI, string tokenKey = "", string tokenValue = "")**
+- [**Improvement**] Optimized Unity logs improvement
+- [**Improvement**] Optimized Change Video Content with DRM for iOS
+
 ### Version 3.2.0
 ##### December 7, 2023
 - [**Added**] AutoTransition and LoopPlayback APIs to multiplatform SDK
