@@ -48,9 +48,9 @@
 * Inka DRM System
 
 ### Supported Unity’s Rendering Mode: 
-* Render Texture
 * Material Override
 * Raw Image
+* Render Texture
 
 ### Supported Graphics API:
 * Metal
