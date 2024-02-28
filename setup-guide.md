@@ -42,6 +42,8 @@ Open the window **Tools > HISPlayer** located in the upper side of the screen > 
 </p>
 
 ## 2.1 Set up HISPlayer Manager
+*You may skip this section if you are using [**HISPlayerSample**](./import-sample.md). The code set-up is already included in the sample script (HISPlayerSample.cs).*
+
 Create a new script which will inherit from **HISPlayerManager**, for example, iOSStreamController. It is necessary to add the **'using HISPlayerAPI;'** dependancy. Then, add this component to a new game object (recommended to be empty).
 
 Call the **SetUpPlayer()** function in order to initialize the stream environment internally. This function can be called whenever it’s needed.
