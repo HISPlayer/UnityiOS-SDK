@@ -67,7 +67,7 @@ You can add/remove streams by pressing the buttons **+/-** in the **Multi Stream
 ### Add/Remove URLs
 
 You can add/remove URLs by selecting one element from the **Multi Stream Properties list** and then pressing the buttons **+/-** in the **Url list**.
-For changing the content of the videos, please refer to **[ChangeVideoContent](https://hisplayer.github.io/UnityiOS-SDK/#/hisplayer-api)** API.
+For changing the content of the videos, please refer to **[ChangeVideoContent](https://hisplayer.github.io/UnityiOS-SDK/#/hisplayer-api?id=protected-void-changevideocontentint-playerindex-int-urlindex)** API.
 
 <p align="center">
   <img width=70% alt="urls" src="https://github.com/HISPlayer/UnityAndroid-SDK/assets/47497948/bf03d4a3-d1a5-4e4d-b572-10bbe18c1f86">
