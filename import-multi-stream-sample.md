@@ -8,7 +8,7 @@ Importing the package is the same as importing other normal packages in Unity. S
 - **Assets > Import Package > Custom Package > HISPlayer_MultiStream_Sample.unitypackage**
 
 <p align="center">
-  <img width=35% src="https://github.com/HISPlayer/UnityAndroid-SDK/assets/47497948/9cddf00f-9abc-4075-9bc2-ba278b92a7f9">
+  <img width=50% src="https://github.com/HISPlayer/UnityAndroid-SDK/assets/47497948/9cddf00f-9abc-4075-9bc2-ba278b92a7f9">
 </p>
 
 - Complete the configuration for iOS ->  [**Configure Unity for iOS**](./setup-guide.md#12-configure-unity-for-ios)
@@ -16,7 +16,7 @@ Importing the package is the same as importing other normal packages in Unity. S
 - Open the scene **Assets/HISPlayerMultiStream/Scenes/HISPlayerMultiStream.unity**
 
 <p align="center">
-  <img width=40% alt="image" src="https://github.com/HISPlayer/UnityAndroid-SDK/assets/47497948/947b66af-5f9f-4277-b9de-831e097c52ef">
+  <img width=60% alt="image" src="https://github.com/HISPlayer/UnityAndroid-SDK/assets/47497948/947b66af-5f9f-4277-b9de-831e097c52ef">
 </p>
 
 - Import TextMesh Pro Essential
@@ -24,7 +24,7 @@ Importing the package is the same as importing other normal packages in Unity. S
 - Input the license key through the Inspector. **HISPlayerMultiStreamController** GameObject -> **HISPlayerMultiStreamController** component -> **License Key**
 
 <p align="center">
-  <img width=70% alt="image" src="https://github.com/HISPlayer/UnityiOS-SDK/assets/47497948/af5403d2-1d0c-46c0-b70e-c4217c52d151"
+  <img width=80% alt="image" src="https://github.com/HISPlayer/UnityiOS-SDK/assets/47497948/af5403d2-1d0c-46c0-b70e-c4217c52d151"
 </p>
 
 - Open **File** > **Build Settings** > **Add Open Scenes**
