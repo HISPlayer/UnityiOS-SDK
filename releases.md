@@ -1,7 +1,7 @@
 # HISPlayer Unity iOS SDK Release Notes
 
 ### Version 3.4.0
-##### March 21, 2024
+##### April 9, 2024
 - [**Added**] HISPLAYER_ERROR_PLATFORM_NOT_REGISTERED error event
 - [**Added**] URL_EXTENSION, HLS and DASH MIME Types support. Please, refer to HISPlayerMimeTypes on [HISPlayer API](https://hisplayer.github.io/UnityiOS-SDK/#/hisplayer-api)
     -  URL_EXTENSION (Default)
