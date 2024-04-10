@@ -59,7 +59,7 @@
 * Metal
 
 ### Supported Editor:
-* Windows Editor (Multi stream is not supported)
+* Windows Editor
 * MacOS Editor
 
 ### Supported Unity Render Pipeline
