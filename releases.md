@@ -10,7 +10,7 @@
     -  DASH
 - [**Improvement**] Optimized HISPlayer Settings
     - A warning message will be displayed in case a field required by HISPlayer SDK is missing
-  
+
 ### Version 3.3.0
 ##### January 25, 2024
 - [**Added**] New API to change video content using the URL string as a parameter:
