@@ -17,7 +17,9 @@ To use this format, it’s necessary to create a new folder into the **Assets** 
 <img width="350" alt="image" src="https://github.com/HISPlayer/UnityiOS-SDK/assets/47497948/cc52faf6-b7cb-4121-8e75-a548c0e95280">
 </p>
 
-The next step is to add a video content inside the folder and pass the name (**with the extension**) to the **Multi Stream Properties**.
+### Video File
+
+Add a video content inside the folder and pass the name (**with the extension**) to the **Multi Stream Properties**.
 &nbsp;
 
 <p align="center">
@@ -38,6 +40,9 @@ The returned path on iOS will be: **/var/mobile/Containers/Data/Application/\<gu
 
 The HISPlayer SDK will take this path as the entry point to begin to search the desired local content.
 
+### Video File
+
+Add the video file that is stored inside the *Application.persistentDataPath* and pass the file name (**with the extension**) to the **Multi Stream Properties**.
 In case that subfolders are created inside *Application.persistentDataPath* , the path of the file **must include the subfolder’s name** inside the field
 of Multi Stream Properties, e.g, with a subfolder named **“MyVideos”** the following path must be used: 
 
