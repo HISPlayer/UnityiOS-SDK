@@ -1,7 +1,8 @@
 # HISPlayer Unity iOS SDK Release Notes
 
 ### Version 3.4.0
-##### April 9, 2024
+##### April 10, 2024
+- [**Added**] Multi stream support on Windows Editor
 - [**Added**] HISPLAYER_ERROR_PLATFORM_NOT_REGISTERED error event
 - [**Added**] URL_EXTENSION, HLS and DASH MIME Types support. Please, refer to HISPlayerMimeTypes on [HISPlayer API](https://hisplayer.github.io/UnityiOS-SDK/#/hisplayer-api)
     -  URL_EXTENSION (Default)
