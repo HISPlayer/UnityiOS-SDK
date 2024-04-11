@@ -148,7 +148,7 @@ Use **Multi Stream Properties** to set all configurations needed for multi strea
 * <span style="color:blue">**Raw Image**</span>: Attach the **RawImage** asset created to the **RawImage** section of the element.
 * <span style="color:blue">**Render Texture**</span>: Attach the **RenderTexture** to the **RenderTexture** section of the element.
 * <span style="color:blue">**URL**</span>: Add the URL associated to the stream. Currently only single URL is supported.
-* <span style="color:blue">**URL MIME Types**</span>: Set the MIME types of each URL. Only using URL Extension or HLS is supported for iOS. 
+* <span style="color:blue">**URL MIME Types**</span>: Set the MIME types of each URL. Only using URL Extension or HLS is supported for iOS. URL Extension is set by default.
 * <span style="color:blue">**Autoplay**</span>: Property to determine whether the player will start automatically after set up.
 * <span style="color:blue">**Loop Playback**</span>: Property to loop the current playback. It’s true by default.
 * <span style="color:blue">**Auto Transition**</span>: Property to change the playback to the next video in the playlist. This action won’t have effect when loopPlayback is true. It’s false by default.
