@@ -148,10 +148,13 @@ Use **Multi Stream Properties** to set all configurations needed for multi strea
 * <span style="color:blue">**Raw Image**</span>: Attach the **RawImage** asset created to the **RawImage** section of the element.
 * <span style="color:blue">**Render Texture**</span>: Attach the **RenderTexture** to the **RenderTexture** section of the element.
 * <span style="color:blue">**URL**</span>: Add the URL associated to the stream. Currently only single URL is supported.
+* <span style="color:blue">**URL MIME Types**</span>: Set the MIME types of each URL. Only using URL Extension or HLS is supported for iOS. 
 * <span style="color:blue">**Autoplay**</span>: Property to determine whether the player will start automatically after set up.
+* <span style="color:blue">**Loop Playback**</span>: Property to loop the current playback. It’s true by default.
+* <span style="color:blue">**Auto Transition**</span>: Property to change the playback to the next video in the playlist. This action won’t have effect when loopPlayback is true. It’s false by default.
 * <span style="color:blue">**Digital Rights Management (DRM)**</span>: The DRM will be disabled by default.  See [DRM](/drm.md) for more details.
 <p align="center">
-<img src="./assets/multistream-properties.PNG">
+<img src="https://github.com/HISPlayer/UnityAndroid-SDK/assets/32887298/a6cddeab-c0d2-4607-b14f-1cbaf97db56c">
 </p>
 
 ## 2.4 Build and Run:
