@@ -67,6 +67,11 @@ Open the window **Tools > HISPlayer** located in the upper side of the screen > 
 
 <p align="center">
 <img width=40% alt="image" src="https://github.com/HISPlayer/UnityiOS-SDK/assets/47497948/cf52dda7-cbc8-49cd-b808-c51ba35752ff">
+</p>
+
+Please go to Packages > HISPlayerSDK > HISPlayer > Plugins > iOS. Make sure that the HISPlayeriOS.framework file has the **Add to Embedded Binaries** set tot true.
+
+<p align="center">
 <img src="./assets/embedded-bin.png" width=40%>
 </p>
 
