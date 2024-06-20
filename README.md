@@ -11,10 +11,11 @@ HISPlayer is the most advanced Unity video streaming player for iOS, supporting 
 >
 > **[Start your FREE trial here!](https://dashboard.hisplayer.com/signup)**
 >
-> After signing up for your **Video Upload FREE trial**, please refer to the following tutorials:
-> * **[How to upload videos from the Unity Editor with HISPlayer](https://www.youtube.com/watch?v=POzM5U31tzc)**
-> * **[How to upload video from HISPlayer Dashboard](https://www.youtube.com/watch?v=awfN0zz-8zQ)**
-> 
+> ### Steps to use:
+>
+> 1. Go to [HISPlayer video platform ](https://dashboard.hisplayer.com/signup) and create your private account to upload and host your videos there. [Watch the Tutorial](https://www.youtube.com/watch?v=awfN0zz-8zQ)
+> 2. Import HISPlayer Unity SDK into Unity Editor and start playing your videos in your Unity apps. [Watch the Tutorial](https://www.youtube.com/watch?v=POzM5U31tzc) 
+>  
 > We can help you with the full **end-to-end** delivery and playback.
 
 <br>
@@ -24,4 +25,4 @@ HISPlayer is the most advanced Unity video streaming player for iOS, supporting 
 <br>
 
 > [!NOTE]
-> ***If you need DRM content protection, custom development, and expedited customer support, please [contact us here](https://hisplayer.com/contact-hisplayer-unity-sdk-premium/) to get the HISPlayer SDK Premium Version.***
+> ***If you need DRM content protection, video caching, fast channel switching, video thumbnail generation, custom development, and expedited customer support, please [contact us here](https://hisplayer.com/contact-hisplayer-unity-sdk-premium/) to get the HISPlayer SDK Premium Version.***
