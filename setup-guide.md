@@ -167,3 +167,5 @@ Once the configuration it’s done, open **‘Build Settings’** and press **�
 <p align="center">
 <img src="./assets/build-run.png" width=60%>
 </p>
+
+Please deploy to real iPhone device. Xcode iPhone simulator build is not supported.
