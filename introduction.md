@@ -46,6 +46,7 @@
 
 ### Supported iOS Version
 * iOS 11 onwards
+  *  Xcode Simulator build is not supported
 
 ### Content Protection
 * Inka DRM System
