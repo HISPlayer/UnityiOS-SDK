@@ -13,7 +13,7 @@ HISPlayer is the most advanced Unity video streaming player for iOS, supporting 
 > 
 >The following videos show how it works:
 > * **[How to upload videos from the Unity Editor with HISPlayer](https://www.youtube.com/watch?v=POzM5U31tzc)**
-> * **[How to upload video from HISPlayer Video Platform](https://www.youtube.com/watch?v=awfN0zz-8zQ)**
+> * **[How to upload video from HISPlayer Dashboard](https://www.youtube.com/watch?v=awfN0zz-8zQ)**
 >
 > We can help you with the full **end-to-end** delivery and playback.
 
@@ -25,3 +25,8 @@ HISPlayer is the most advanced Unity video streaming player for iOS, supporting 
 
 > [!NOTE]
 > ***If you need DRM content protection, video caching, fast channel switching, video thumbnail generation, custom development, and expedited customer support, please [contact us here](https://hisplayer.com/contact-hisplayer-unity-sdk-premium/) to get the HISPlayer SDK Premium Version.***
+
+<br>
+
+
+<sub><sub>Related Keywords: Online Video Platforms, OVP, Streaming Video Platform, Video on Demand, Upload Video Online, Unity Video Plugin for iOS, Apple, Video hosting platform, Video hosting, Simple Storage Service, Cloud storage, Unity video streaming, video transcoding, MediaConvert</sub><sub>
