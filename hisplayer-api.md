@@ -52,6 +52,7 @@ The following public APIs are provided by **HISPlayerManager**
     * **HISPLAYER_EVENT_PLAYBACK_BUFFERING**
     * **HISPLAYER_EVENT_NETWORK_CONNECTED**
     * **HISPLAYER_EVENT_END_OF_CONTENT**
+    * **HISPLAYER_EVENT_VIDEO_SIZE_CHANGE**
 
 * **public enum HISPlayerError**: The list of errors provided by HISPlayer SDK. The errors can be used with the virtual functions in the next section:
    * **HISPLAYER_ERROR_LICENSE_EXPIRED** (no function on this)
@@ -208,6 +209,10 @@ This event occurs whenever an internal playback is buffering.
 #### protected virtual void EventEndOfContent(HISPlayerEventInfo eventInfo)
 Override this method to add custom logic when **HISPlayerEvent.HISPlayer_EVENT_END_OF_CONTENT** is triggered.
 This event occurs whenever an internal playlist reaches the end of the list.
+
+#### protected virtual void EventVideoSizeChange(HISPlayerEventInfo eventInfo)
+Override this method to add custom logic when **HISPlayerEvent.HISPLAYER_EVENT_VIDEO_SIZE_CHANGE** is triggered.
+This event occurs whenever the internal video size of the current track changes.
 
 #### protected virtual void ErrorInfo(HISPlayerErrorInfo errorInfo)
 Override this method to add custom logic when an error callback is triggered. Please, refer to the **HISPlayerError** list.
