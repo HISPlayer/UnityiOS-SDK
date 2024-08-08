@@ -39,6 +39,7 @@ The following public APIs are provided by **HISPlayerManager**
      
 * **public enum HISPlayerEvent**: The list of events provided by HISPlayer SDK. The events can be used with the virtual functions in the next section:
     * **HISPLAYER_EVENT_PLAYBACK_READY**
+    * **HISPLAYER_EVENT_VIDEO_SIZE_CHANGE**
     * **HISPLAYER_EVENT_PLAYBACK_PLAY**
     * **HISPLAYER_EVENT_PLAYBACK_PAUSE**
     * **HISPLAYER_EVENT_PLAYBACK_STOP**
@@ -52,7 +53,6 @@ The following public APIs are provided by **HISPlayerManager**
     * **HISPLAYER_EVENT_PLAYBACK_BUFFERING**
     * **HISPLAYER_EVENT_NETWORK_CONNECTED**
     * **HISPLAYER_EVENT_END_OF_CONTENT**
-    * **HISPLAYER_EVENT_VIDEO_SIZE_CHANGE**
 
 * **public enum HISPlayerError**: The list of errors provided by HISPlayer SDK. The errors can be used with the virtual functions in the next section:
    * **HISPLAYER_ERROR_LICENSE_EXPIRED** (no function on this)
@@ -213,6 +213,21 @@ This event occurs whenever an internal playlist reaches the end of the list.
 #### protected virtual void EventVideoSizeChange(HISPlayerEventInfo eventInfo)
 Override this method to add custom logic when **HISPlayerEvent.HISPLAYER_EVENT_VIDEO_SIZE_CHANGE** is triggered.
 This event occurs whenever the internal video size of the current track changes.
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>param1</td>
+    <td>Width of the video.</td>
+  </tr>
+   <tr>
+    <td>param2</td>
+    <td>Heigth of the video.</td>
+  </tr>
+</table>
 
 #### protected virtual void ErrorInfo(HISPlayerErrorInfo errorInfo)
 Override this method to add custom logic when an error callback is triggered. Please, refer to the **HISPlayerError** list.
