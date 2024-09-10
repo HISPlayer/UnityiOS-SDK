@@ -5,7 +5,6 @@
 - [**Added**] Release API is called automatically when stopping the Editor, changing scenes or closing the app
 - [**Added**] EventVideoSizeChange - eventInfo.param3 is catching the internal rotation value of the original video
 - [**Improvement**] Optimized error log messages
-- [**Improvement**] Optimized license key management
 
 ### Version 4.3.0
 ##### August 8, 2024
