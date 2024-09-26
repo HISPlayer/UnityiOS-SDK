@@ -23,22 +23,9 @@ public class HISPlayeriOSDownloaderSample : HISPlayerManager
 {
     protected override void EventOnDownloadCompleted(HISPlayerEventInfo eventInfo)
         {
-            // 1. Prepare the StreamProperties to be added
-            StreamProperties stream = new StreamProperties();
-            stream.renderMode = HISPlayerRenderMode.RawImage;
-            stream.rawImage = rawImage1;
-            stream.autoPlay = true;
-
-            // 2. Add prepared stream
-            AddStream(stream);
-
-            // 3. Add the downloaded video content to the stream. eventInfo.stringInfo corresponds to
-            // the relative path to the Application.PersistentDataPath. You can save this value to
-            // open the content at any point after this event has been triggered
-            AddVideoContent(totalScreens, eventInfo.stringInfo);
-            totalScreens++;
-
-            base.EventOnDownloadCompleted(eventInfo);
+            // Change Downloading Stream text
+            if (eventInfo.stringInfo == "MyStreamTitle")
+                Debug.Log("Downloading Stream: " + eventInfo.param1 + "%. Stream Title: " + eventInfo.stringInfo + ".");
         }
 }
 ```
@@ -55,10 +42,22 @@ public class HISPlayeriOSDownloaderSample : HISPlayerManager
 {
     protected override void EventOnDownloadProgress(HISPlayerEventInfo eventInfo)
         {
-            // Change Downloading Stream text
-            if (eventInfo.stringInfo == "MyStreamTitle")
-                Debug.Log("Downloading Stream: " + eventInfo.param1 + "%. Stream Title: " + eventInfo.stringInfo + ".");
+            // 1. Prepare the StreamProperties to be added
+            StreamProperties stream = new StreamProperties();
+            stream.renderMode = HISPlayerRenderMode.RawImage;
+            stream.rawImage = rawImage1;
+            stream.autoPlay = true;
 
+            // 2. Add prepared stream
+            AddStream(stream);
+
+            // 3. Add the downloaded video content to the stream. eventInfo.stringInfo corresponds to
+            // the relative path to the Application.PersistentDataPath. You can save this value to
+            // open the content at any point after this event has been triggered
+            AddVideoContent(totalScreens, eventInfo.stringInfo);
+            totalScreens++;
+
+            base.EventOnDownloadCompleted(eventInfo);
         }
 }
 ```
