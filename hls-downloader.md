@@ -94,6 +94,7 @@ public class HISPlayeriOSDownloaderSample : HISPlayerManager
     * **HISPLAYER_EVENT_DOWNLOAD_COMPLETED**
     * **HISPLAYER_EVENT_DOWNLOAD_PROGRESS**
 
+
 #### protected virtual void EventOnDownloadCompleted(HISPlayerEventInfo eventInfo)
 Override this method to add custom logic when **HISPlayerEvent.HISPLAYER_EVENT_DOWNLOAD_COMPLETED** is triggered.
 This event occurs whenever a stream that was being downloaded has ended the download process, and it's ready to be played.
