@@ -86,3 +86,55 @@ public class HISPlayeriOSDownloaderSample : HISPlayerManager
     }
 }
 ```
+
+# Related API
+
+### Event and Virtual Options
+
+* **public enum HISPlayerEvent**: The list of events provided by HISPlayer SDK for using HLS Downloader functionalities. The events can be used with the virtual functions in the next section:
+    * **HISPLAYER_EVENT_DOWNLOAD_COMPLETED**
+    * **HISPLAYER_EVENT_DOWNLOAD_PROGRESS**
+#### protected virtual void EventOnDownloadCompleted(HISPlayerEventInfo eventInfo)
+Override this method to add custom logic when **HISPlayerEvent.HISPLAYER_EVENT_DOWNLOAD_COMPLETED** is triggered.
+This event occurs whenever a stream that was being downloaded has ended the download process, and it's ready to be played.
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>stringInfo</td>
+    <td>Relative path where the stream has been stored. This will equal to the title settled to the video. The path is relative to the Application.persistentDataPath,which in iOS corresponds to    /var/mobile/Containers/Data/Application/<guid>/Documents. Save it for later plaback of such stream.</td>
+  </tr>
+</table>
+
+#### protected virtual void EventOnDownloadProgress(HISPlayerEventInfo eventInfo)
+Override this method to add custom logic when **HISPlayerEvent.HISPLAYER_EVENT_DOWNLOAD_PROGRESS** is triggered.
+This event occurs whenever a HLS stream is being downloaded, to retrieve the progress of such download.
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>param1</td>
+    <td>The percentage of the download progress of a certain stream.</td>
+  </tr>
+   <tr>
+    <td>stringInfo</td>
+    <td>Title of the stream that is being downloaded. This title is settled by the user when calling the DownloadStream API.</td>
+  </tr>
+</table>
+
+### Non-virtual Functions
+
+#### public void DownloadStream(string url, string videoTitle)
+Download an HLS Stream. Stream will be automatically saved on the Application.PersisentDataPath (/var/mobile/Containers/Data/Appligation/<guid>/Documents). If 2 downloaded contents have the same video title, the last one will overrite the first one. Avoid using non english characters, dots, slashes and any other kind of special character. The **url** refers to the URL to the HLS stream. **videoTitle** is the name of the saved stream and will allow to reproduce it once it has been downloaded.
+
+#### public void DeleteDownloadStream(string videoTitle)
+Delete a specific downloaded HLS Stream. **videoTitle** is the name  of the stream that will be deleted from the device.
+
+#### public void DeleteAllDownloadedStreams()
+Delete all downloaded streams that have been stored in the Application.PersistentDataPath.
