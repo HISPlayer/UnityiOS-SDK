@@ -5,7 +5,6 @@
 - [Custom Shaders for Linear Color Space](/shaders.md)
 - [DRM](/drm.md)
 - [Playing Local Files](/local-files.md)
-- [Using iOS HLS Downloader](/hls-downloader.md)
 - [Unity URP](/unity-urp.md)
 - [Unity HDRP](/unity-hdrp.md)
 - [Obtaining Logs](/obtaining-logs.md)
