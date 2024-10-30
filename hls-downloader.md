@@ -90,10 +90,10 @@ public class HISPlayeriOSDownloaderSample : HISPlayerManager
 # Related API
 
 ### Event and Virtual Options
-
 * **public enum HISPlayerEvent**: The list of events provided by HISPlayer SDK for using HLS Downloader functionalities. The events can be used with the virtual functions in the next section:
     * **HISPLAYER_EVENT_DOWNLOAD_COMPLETED**
     * **HISPLAYER_EVENT_DOWNLOAD_PROGRESS**
+
 #### protected virtual void EventOnDownloadCompleted(HISPlayerEventInfo eventInfo)
 Override this method to add custom logic when **HISPlayerEvent.HISPLAYER_EVENT_DOWNLOAD_COMPLETED** is triggered.
 This event occurs whenever a stream that was being downloaded has ended the download process, and it's ready to be played.
