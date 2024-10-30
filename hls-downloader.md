@@ -90,9 +90,9 @@ public class HISPlayeriOSDownloaderSample : HISPlayerManager
 # Related API
 
 ### Event and Virtual Options
-* **public enum HISPlayerEvent**: The list of events provided by HISPlayer SDK for using HLS Downloader functionalities. The events can be used with the virtual functions in the next section:
-    * **HISPLAYER_EVENT_DOWNLOAD_COMPLETED**
-    * **HISPLAYER_EVENT_DOWNLOAD_PROGRESS**
+**public enum HISPlayerEvent**: The list of events provided by HISPlayer SDK for using HLS Downloader functionalities. The events can be used with the virtual functions in the next section:
+*    **HISPLAYER_EVENT_DOWNLOAD_COMPLETED**
+*    **HISPLAYER_EVENT_DOWNLOAD_PROGRESS**
 
 
 #### protected virtual void EventOnDownloadCompleted(HISPlayerEventInfo eventInfo)
