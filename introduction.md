@@ -43,6 +43,7 @@
 * 2021
 * 2022
 * 2023
+* Unity 6
 
 ### Supported iOS Version
 * iOS 11 onwards
