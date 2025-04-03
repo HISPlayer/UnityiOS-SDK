@@ -8,7 +8,7 @@ HISPlayer is the most advanced Unity video streaming player for iOS, supporting 
 
 ## 🚀 HISPlayer Video Hosting Platform 🚀
 >
-> HISPlayer includes the option to upload and host any video files to your HISPlayer account, converting them into HLS and DASH streaming links. You can stream all these videos using HISPlayer Unity SDK into your Unity projects. **[Start your FREE trial here!](https://hisplayer.com/unity-asset-store-saas-registration/)**
+> HISPlayer allows you to upload and host any video files to your HISPlayer account, converting them into HLS and DASH streaming links. You can stream all these videos using HISPlayer Unity SDK into Unity projects. **[Start your FREE trial here!](https://hisplayer.com/unity-asset-store-saas-registration/)**
 >
 >Moreover, HISPlayer Unity SDK also allows you to upload and host videos directly from the **Unity Editor**.
 > 
