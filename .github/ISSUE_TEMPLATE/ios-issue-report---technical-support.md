@@ -1,6 +1,6 @@
 ---
 name: iOS Issue Report / Technical Support
-about: Create a report to help us improve
+about: Ask for technical support or report an issue
 title: ''
 labels: ''
 assignees: ''
