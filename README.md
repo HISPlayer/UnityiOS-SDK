@@ -13,7 +13,7 @@ HISPlayer is the most advanced Unity video streaming player for iOS, supporting 
 >Moreover, HISPlayer Unity SDK also allows you to upload and host videos directly from the **Unity Editor**.
 > 
 >Tutorial:
-> * **[Upload videos from the Unity Editor](https://www.youtube.com/watch?v=vSI7U6TjHqI)**
+> * **[Host videos from the Unity Editor](https://www.youtube.com/watch?v=vSI7U6TjHqI)**
 > 
 > We can help you with the full **end-to-end** delivery and playback.
 
