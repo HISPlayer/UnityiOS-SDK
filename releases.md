@@ -1,5 +1,9 @@
 # HISPlayer Unity iOS SDK Release Notes
 
+### Version 4.8.0
+##### July 7, 2025
+- [**Improvement**] Enhancement to InspectorGUI to dynamically show/hide certain options.
+
 ### Version 4.4.0
 ##### September 10, 2024
 - [**Added**] Release API is called automatically when stopping the Editor, changing scenes or closing the app
