@@ -45,7 +45,7 @@
 * Unity 6
 
 ### Supported iOS Version
-* iOS 11 onwards
+* iOS 15 onwards
   *  Xcode Simulator build is not supported
 
 ### Content Protection
