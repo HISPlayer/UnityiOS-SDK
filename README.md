@@ -16,7 +16,8 @@ HISPlayer is the most advanced Unity video streaming player for iOS, supporting 
 
 <br>
 
-## [REQUEST A DEMO HERE!](https://hisplayer.com/demo-unity-player-sdk-github/?utm_source=github&utm_medium=referral&utm_campaign=unitygithub&utm_content=20200211--unitydemocontact)
+## Unity SDK - Premium Version!
+*If you need **DRM content protection**, or require a custom solution with dedicated support, [**please contact us here**](https://hisplayer.com/contact-hisplayer-unity-sdk-premium/) to get the **HISPlayer Unity SDK Premium Version**.*
 
 <br>
 
