@@ -1,12 +1,16 @@
 # HISPlayer Unity iOS SDK Release Notes
 
+### Version 4.14.2
+##### December 30, 2025
+- [**Added**] EventNetworkConnected, ErrorNetworkFailed and auto network reconnection during video playback.
+
 ### Version 4.14.1
 ##### December 23, 2025
 - [**Improvement**] Updated eventType of EventPlaybackSeekEnd to output HISPLAYER_EVENT_PLAYBACK_SEEK_END.
 
 ### Version 4.14.0
 ##### December 18, 2025
-- [**Improvement**] Improve compatibility with App Store submission related to symbol name collisions with Apple system libraries.
+- [**Improvement**] Improved compatibility with App Store submission related to symbol name collisions with Apple system libraries.
 - [**Improvement**] Improved volume change event handling to ensure HISPLAYER_EVENT_VOLUME_CHANGE is triggered consistently across all platforms.
 - [**Improvement**] Updated GetProgramDateTimeEpoch to return the exact Epoch time of the current frame.
 - [**Improvement**] Improved seek event handling to ensure HISPLAYER_EVENT_PLAYBACK_SEEK_END is consistently triggered across all platforms.
