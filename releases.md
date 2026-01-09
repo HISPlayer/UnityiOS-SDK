@@ -1,5 +1,9 @@
 # HISPlayer Unity iOS SDK Release Notes
 
+### Version 4.14.3
+##### January 8, 2026
+- [**Added**] SDK import and compilation for Unity Linux editor.
+
 ### Version 4.14.2
 ##### December 30, 2025
 - [**Added**] EventNetworkConnected, ErrorNetworkFailed and auto network reconnection during video playback.
