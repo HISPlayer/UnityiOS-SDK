@@ -1,5 +1,10 @@
 # HISPlayer Unity iOS SDK Release Notes
 
+### Version 4.18.0
+##### May 4, 2026
+- [**Improvement**] Improved video texture update behavior during pause, seek, and stop operations to ensure consistent rendering.
+- [**Improvement**] Optimized render pipeline to improve overall performance.
+
 ### Version 4.17.0
 ##### April 7, 2026
 - [**Improvement**] Updated stereoscopic shader to improve rendering behavior and added support for Side-by-Side and Top-Bottom layouts.
